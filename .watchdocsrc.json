@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "watch": {
+    "routes": [
+      "**/Controllers/**/*.cs",
+      "**/*Controller.cs",
+      "**/Program.cs",
+      "**/*Endpoints.cs",
+      "**/Endpoints/**/*.cs",
+      "**/Contracts/**/*.cs",
+      "**/Models/**/*.cs",
+      "**/*Request.cs",
+      "**/*Response.cs",
+      "openapi.{json,yaml,yml}"
+    ]
+  },
+  "docs": {
+    "paths": [
+      "docs"
+    ]
+  },
+  "pr": {
+    "branchPrefix": "watchdocs/sync-",
+    "reviewers": []
+  }
+}
